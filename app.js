@@ -10,7 +10,7 @@ const express               =  require('express'),
       var fs = require('fs');
 var path = require('path');
   //Connecting database
-mongoose.connect("mongodb+srv://admin-aiswarya:Prajitha78@cluster0.9irto.mongodb.net/AuraDB");
+mongoose.connect("mongodb+srv://<username>:<password>@cluster0.9irto.mongodb.net/AuraDB");
 app.use(require("express-session")({
     secret:"Any normal Word",       //decode or encode session
     resave: false,          
